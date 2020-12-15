@@ -61,8 +61,35 @@ header {
 
 /* Pokedex */
 
+#pokedex {
+    min-height: 100vh;
+    background-image: url("../images/pokedex/mew.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 /* Games */
+
+#games {
+    min-height:100vh;
+    background-color: #262626;
+    /* background-image: url("../images/surfing-pikachu.jpg");
+    background-size: cover;
+    background-position: center; */
+    color: blue;
+}
 
 /* Movies / Animes */
 
+#movies-animes {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
 /* Fan Events */
+
+#fan-events {
+    min-height: 100vh;
+    background-color: pink;
+}
