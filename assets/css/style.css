@@ -102,6 +102,11 @@ header {
     height: 70%;
 }
 
+.modal-img {
+    height: auto;
+    width: 80%;
+}
+
 .close {
     color: #aaa;
     float: right;
@@ -125,7 +130,8 @@ header {
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin: 50px auto;
+    
 }
 
 .mySlides {
