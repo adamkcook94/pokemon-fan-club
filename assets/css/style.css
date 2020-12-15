@@ -1,0 +1,31 @@
+/* Body */
+body {
+    font-family: 'Nerko One', cursive;
+}
+
+/* Header */
+
+/* Navigation Bar */
+
+.navbar-text {
+    font-family: 'Nerko One', cursive;
+    color: #2a75bb;
+    font-size: 30px;
+}
+
+.navbar-text:hover {
+    color: #F0FFFF;
+    text-decoration: none !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/* Pokedex */
+
+/* Games */
+
+/* Movies / Animes */
+
+/* Fan Events */
