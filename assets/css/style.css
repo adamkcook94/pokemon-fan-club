@@ -91,21 +91,22 @@ header {
     height: 100%; 
     overflow: auto; 
     background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
+    background-color: rgba(0,0,0,0.8); 
 }
 
 .modal-content {
     background-color: black;
     margin: 40px auto; 
     border: 1px solid #888;
-    width: 30%; 
-    height: 70%;
+    width: 35%; 
+    height: 75%;
 }
 
 .modal-img {
     height: auto;
     width: 80%;
 }
+
 
 .close {
     color: #aaa;
@@ -123,12 +124,8 @@ header {
 
 * {box-sizing:border-box}
 
-.slideshow-img {
-    padding-bottom: 10px;
-}
-
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 500px;
     position: relative;
     margin: 50px auto;
     
@@ -146,12 +143,12 @@ header {
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
+    from {opacity: 1}
     to {opacity: 1}
 }
 
 @keyframes fade {
-    from {opacity: .4}
+    from {opacity: 1}
     to {opacity: 1}
 }
 
