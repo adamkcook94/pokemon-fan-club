@@ -79,6 +79,11 @@ header {
     color: blue;
 }
 
+.img-fluid {
+    height: auto;
+    max-width: 75%;
+}
+
 /* Movies / Animes */
 
 #movies-animes {
