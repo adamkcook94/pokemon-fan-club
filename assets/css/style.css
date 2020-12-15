@@ -5,6 +5,43 @@ body {
 
 /* Header */
 
+header {
+    min-height: 100vh;
+    background-image: url("../images/homepage/pokemon-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+}
+
+
+.pokemon-home {
+    width: 50%;
+    height: auto;
+    }
+
+.pokemon-home-div {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.welcome-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
+.pokeball {
+    height: 100px;
+    width: auto;
+}
+
 /* Navigation Bar */
 
 .navbar-text {
