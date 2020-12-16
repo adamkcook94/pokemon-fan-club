@@ -87,6 +87,16 @@ header {
     margin: 20px auto;
 }
 
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
+}
+
 .modal {
     display: none; 
     position: fixed; 
