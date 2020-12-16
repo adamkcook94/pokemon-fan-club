@@ -53,3 +53,5 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 6000);
 }
+
+ScrollReveal().reveal('.headline', { duration: 2000 })
