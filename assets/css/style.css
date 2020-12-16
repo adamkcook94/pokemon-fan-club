@@ -72,13 +72,19 @@ header {
 
 #games {
     min-height:100vh;
-    background-color: #262626;
-    color: blue;
+    background-image: url("../images/games/gengar-background.png");
+    background-size: cover;
+    background-position: center;
+    color: grey;
 }
 
 .img-fluid {
     height: auto;
-    max-width: 75%;
+    max-width: 80%;
+}
+
+.game-img {
+    margin: 20px auto;
 }
 
 .modal {
@@ -95,11 +101,25 @@ header {
 }
 
 .modal-content {
-    background-color: black;
+    background-color: rgba(220, 218, 232,);
     margin: 40px auto; 
     border: 1px solid #888;
     width: 35%; 
     height: 75%;
+}
+
+@media only screen and (max-width: 950px) {
+  .modal-content {
+    width: 50%;
+    height: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 75%;
+    height: 75%;
+  }
 }
 
 .modal-img {
@@ -107,6 +127,13 @@ header {
     width: 80%;
 }
 
+.checked {
+    color: yellow;
+}
+
+.unchecked {
+    color: white;
+}
 
 .close {
     color: #aaa;
