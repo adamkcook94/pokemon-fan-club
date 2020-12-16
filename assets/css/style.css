@@ -28,6 +28,24 @@ header {
     padding-bottom: 50px;
 }
 
+.slide-from-right {
+    /* float:left; */
+
+    animation-duration: 1.3s;
+    animation-name: slide-from-right;
+}
+
+@keyframes slide-from-right {
+    from {
+        margin-right: -200%;
+    }
+    to {
+        margin-right: 0%;
+    }
+}
+
+
+
 .welcome-msg {
     display: flex;
     justify-content: center;

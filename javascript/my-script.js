@@ -55,3 +55,4 @@ function showSlides() {
 }
 
 ScrollReveal().reveal('.headline', { duration: 2000 })
+
