@@ -190,6 +190,11 @@ header {
     display: none;
 }
 
+
+.mySlides1 {
+    display: none;
+}
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 6s;
