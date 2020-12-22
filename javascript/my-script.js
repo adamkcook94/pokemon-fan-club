@@ -38,6 +38,12 @@ window.onclick = function (event) {
         modal1.style.display = "none";
     } if (event.target == modal2) {
         modal2.style.display = "none";
+    } if (event.target == modal3) {
+        modal3.style.display = "none";
+    } if (event.target == modal4) {
+        modal4.style.display = "none";
+    } if (event.target == modal5) {
+        modal5.style.display = "none";
     }
 }
 
@@ -77,6 +83,53 @@ span.onclick = function () {
 
 // // modal 4 
 
+var modal3 = document.getElementById("myModal3");
+
+var btn3 = document.getElementById("myBtn3");
+
+var span = document.getElementsByClassName("close")[3];
+
+btn3.onclick = function () {
+    modal3.style.display = "block";
+}
+
+span.onclick = function () {
+    modal3.style.display = "none";
+}
+
+// modal 5
+
+var modal4 = document.getElementById("myModal4");
+
+var btn4 = document.getElementById("myBtn4");
+
+var span = document.getElementsByClassName("close")[4];
+
+btn4.onclick = function () {
+    modal4.style.display = "block";
+}
+
+span.onclick = function () {
+    modal4.style.display = "none";
+}
+
+// modal 6
+
+var modal5 = document.getElementById("myModal5");
+
+var btn5 = document.getElementById("myBtn5");
+
+var span = document.getElementsByClassName("close")[5];
+
+btn5.onclick = function () {
+    modal5.style.display = "block";
+}
+
+span.onclick = function () {
+    modal5.style.display = "none";
+}
+
+
 // var modal3 = document.getElementById("myModal3");
 
 // var btn3 = document.getElementById("myBtn3");
@@ -108,7 +161,7 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) { slideIndex = 1 }
     slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 1000);
+    setTimeout(showSlides, 500);
 }
 
 
