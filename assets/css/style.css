@@ -29,8 +29,6 @@ header {
 }
 
 .slide-from-right {
-    /* float:left; */
-
     animation-duration: 1.3s;
     animation-name: slide-from-right;
 }
@@ -223,6 +221,9 @@ header {
 /* Fan Events */
 
 #fan-events {
-    min-height: 100vh;
-    background-color: pink;
+    min-height:100vh;
+    background-image: url("../images/games/surfing-pikachu.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #2a75bb;
 }

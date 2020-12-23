@@ -13,9 +13,7 @@ $('.navbar a').on('click', function (e) {
     }
 });
 
-// Modal
-
-// modal javascript
+// Games Modal
 
 var modal = document.getElementById("myModal");
 
@@ -181,24 +179,7 @@ span.onclick = function () {
     modal8.style.display = "none";
 }
 
-// var modal3 = document.getElementById("myModal3");
-
-// var btn3 = document.getElementById("myBtn3");
-
-// var span = document.getElementsByClassName("close")[3];
-
-// btn3.onclick = function () {
-//     modal3.style.display = "block";
-// }
-
-// span.onclick = function () {
-//     modal3.style.display = "none";
-// }
-
-
-
-
-// Slideshow
+//  Games Modal Slideshow
 
 var slideIndex = 0;
 showSlides();
@@ -217,5 +198,4 @@ function showSlides() {
 
 
 
-ScrollReveal().reveal('.headline', { duration: 2000 })
 
