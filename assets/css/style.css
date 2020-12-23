@@ -222,8 +222,8 @@ header {
 
 #fan-events {
     min-height:100vh;
-    background-image: url("../images/games/surfing-pikachu.jpg");
+    background-image: url("../images/fan-events/surfing-pikachu.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     color: #2a75bb;
 }

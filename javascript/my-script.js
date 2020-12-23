@@ -186,16 +186,135 @@ showSlides();
 
 function showSlides() {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
+    var slides = document.getElementsByClassName("mySlides1");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
     slideIndex++;
     if (slideIndex > slides.length) { slideIndex = 1 }
     slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 500);
+    setTimeout(showSlides, 2000);
 }
 
+var slideIndex2 = 0;
+showSlides2();
+
+function showSlides2() {
+    var i;
+    var slides2 = document.getElementsByClassName("mySlides2");
+    for (i = 0; i < slides2.length; i++) {
+        slides2[i].style.display = "none";
+    }
+    slideIndex2++;
+    if (slideIndex2 > slides2.length) { slideIndex2 = 1 }
+    slides2[slideIndex2 - 1].style.display = "block";
+    setTimeout(showSlides2, 2000);
+}
+
+var slideIndex3 = 0;
+showSlides3();
+
+function showSlides3() {
+    var i;
+    var slides3 = document.getElementsByClassName("mySlides3");
+    for (i = 0; i < slides3.length; i++) {
+        slides3[i].style.display = "none";
+    }
+    slideIndex3++;
+    if (slideIndex3 > slides3.length) { slideIndex3 = 1 }
+    slides3[slideIndex3 - 1].style.display = "block";
+    setTimeout(showSlides3, 2000);
+}
+
+var slideIndex4 = 0;
+showSlides4();
+
+function showSlides4() {
+    var i;
+    var slides4 = document.getElementsByClassName("mySlides4");
+    for (i = 0; i < slides4.length; i++) {
+        slides4[i].style.display = "none";
+    }
+    slideIndex4++;
+    if (slideIndex4 > slides4.length) { slideIndex4 = 1 }
+    slides4[slideIndex4 - 1].style.display = "block";
+    setTimeout(showSlides4, 3000);
+}
+
+var slideIndex5 = 0;
+showSlides5();
+
+function showSlides5() {
+    var i;
+    var slides5 = document.getElementsByClassName("mySlides5");
+    for (i = 0; i < slides5.length; i++) {
+        slides5[i].style.display = "none";
+    }
+    slideIndex5++;
+    if (slideIndex5 > slides5.length) { slideIndex5 = 1 }
+    slides5[slideIndex5 - 1].style.display = "block";
+    setTimeout(showSlides5, 2000);
+}
+
+var slideIndex6 = 0;
+showSlides6();
+
+function showSlides6() {
+    var i;
+    var slides6 = document.getElementsByClassName("mySlides6");
+    for (i = 0; i < slides6.length; i++) {
+        slides6[i].style.display = "none";
+    }
+    slideIndex6++;
+    if (slideIndex6 > slides6.length) { slideIndex6 = 1 }
+    slides6[slideIndex6 - 1].style.display = "block";
+    setTimeout(showSlides6, 2000);
+}
+
+var slideIndex7 = 0;
+showSlides7();
+
+function showSlides7() {
+    var i;
+    var slides7 = document.getElementsByClassName("mySlides7");
+    for (i = 0; i < slides7.length; i++) {
+        slides7[i].style.display = "none";
+    }
+    slideIndex7++;
+    if (slideIndex7 > slides7.length) { slideIndex7 = 1 }
+    slides7[slideIndex7 - 1].style.display = "block";
+    setTimeout(showSlides7, 2000);
+}
+
+var slideIndex8 = 0;
+showSlides8();
+
+function showSlides8() {
+    var i;
+    var slides8 = document.getElementsByClassName("mySlides8");
+    for (i = 0; i < slides8.length; i++) {
+        slides8[i].style.display = "none";
+    }
+    slideIndex8++;
+    if (slideIndex8 > slides8.length) { slideIndex8 = 1 }
+    slides8[slideIndex8 - 1].style.display = "block";
+    setTimeout(showSlides8, 2000);
+}
+
+var slideIndex9 = 0;
+showSlides9();
+
+function showSlides9() {
+    var i;
+    var slides9 = document.getElementsByClassName("mySlides9");
+    for (i = 0; i < slides9.length; i++) {
+        slides9[i].style.display = "none";
+    }
+    slideIndex9++;
+    if (slideIndex9 > slides9.length) { slideIndex9 = 1 }
+    slides9[slideIndex9 - 1].style.display = "block";
+    setTimeout(showSlides9, 2000);
+}
 
 
 
