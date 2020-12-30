@@ -18,24 +18,15 @@
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
     <script type="text/javascript">
-
-        var templateParams = {
-            name: 'Pokemon Fan Club',
-            notes: 'Check out our events!'
-        };
         (function () {
             emailjs.init("user_hTHC4hVb5ggfXpBXMvVGM");
-            emailjs.send("gmail", "Adam Cook", templateParams);
         })();
     </script>
 
-
     <title>Pokemon Fan Club</title>
-
 </head>
 
 <body>
@@ -68,9 +59,6 @@
             <img class="pokemon-home slide-from-right" src="assets/images/homepage/pokemon-logo.png" alt="pokemon-logo">
         </div>
 
-
-
-
         <div class="welcome-msg slide-from-left">
             <img class="pokeball" src="assets/images/homepage/pokeball.jpg" alt="pokeball">
             <h1>Welcome to the Pokemon Fan Club!</h1>
@@ -81,7 +69,97 @@
 
     <section>
         <div id="pokedex">
-
+            <div class="pokedex">
+                <div class="left-container">
+                    <div class="left-container__top-section">
+                        <div class="top-section__blue"></div>
+                        <div class="top-section__small-buttons">
+                            <div class="top-section__red"></div>
+                            <div class="top-section__yellow"></div>
+                            <div class="top-section__green"></div>
+                        </div>
+                    </div>
+                    <div class="left-container__main-section-container">
+                        <div class="left-container__main-section">
+                            <div class="main-section__white">
+                                <div class="main-section__black">
+                                    <div class="main-screen hide">
+                                        <div class="screen__header">
+                                            <span class="poke-name"></span>
+                                            <span class="poke-id"></span>
+                                        </div>
+                                        <div class="screen__image">
+                                            <img src=" " class="poke-front-image" alt="front">
+                                            <img src=" " class="poke-back-image" alt="back">
+                                        </div>
+                                        <div class="screen__description">
+                                            <div class="stats__types">
+                                                <span class="poke-type-one"></span>
+                                                <span class="poke-type-two"></span>
+                                            </div>
+                                            <div class="screen__stats">
+                                                <p class="stats__weight">
+                                                    weight: <span class="poke-weight"></span>
+                                                </p>
+                                                <p class="stats__height">
+                                                    height: <span class="poke-height"></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-container__controllers">
+                                <div class="controllers__d-pad">
+                                    <div class="d-pad__cell top"></div>
+                                    <div class="d-pad__cell left"></div>
+                                    <div class="d-pad__cell middle"></div>
+                                    <div class="d-pad__cell right"></div>
+                                    <div class="d-pad__cell bottom"></div>
+                                </div>
+                                <div class="controllers__buttons">
+                                    <div class="buttons__button">B</div>
+                                    <div class="buttons__button">A</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-container__right">
+                            <div class="left-container__hinge"></div>
+                            <div class="left-container__hinge"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="right-container__black">
+                        <div class="right-container__screen">
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                            <div class="list-item"></div>
+                        </div>
+                    </div>
+                    <div class="right-container__buttons">
+                        <div class="left-button">Prev</div>
+                        <div class="right-button">Next</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="games">
@@ -499,6 +577,34 @@
                 <h1>Fan Events</h1>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis ex at sem rutrum
                     tristique. Cras in nisi ornare,o. </h2>
+
+                <div>
+                    <div class="container text-center">
+                        <form action="action_page.php">
+
+                            <label for="fname" class="text-center">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                            </select>
+
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+
+                        </form>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -513,6 +619,7 @@
         crossorigin="anonymous"></script>
 
     <script src="javascript/my-script.js"></script>
+    <script src="javascript/sendEmail.js"></script>
 </body>
 
 </html>
