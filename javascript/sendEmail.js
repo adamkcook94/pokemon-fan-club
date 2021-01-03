@@ -1,15 +1,16 @@
-var templateParams = {
-    from_name: "adam",
-    from_email: "adamkcook94@hotmail.com",
-    my_address: "78 guilford street",
-}
+function sendMail(params) {
+    var tempParams = {
+        from_name: document.getElementById("fromName").value,
+        to_name: document.getElementById("toName").value,
+        message: document.getElementById("msg").value,
+    };
 
-emailjs.send('service_eln9q7e', 'template_umzf0j4', templateParams)
-    .then(function (response) {
-        console.log('SUCCESS!', response.status, response.text);
-    }, function (error) {
-        console.log('FAILED...', error);
-    });
+    emailjs.send('service_sgo6zyq', 'template_uyv7wkn', tempParams)
+        .then(function (res) {
+            console.log("success", res.status);
+        })
+};
+
 
 
 

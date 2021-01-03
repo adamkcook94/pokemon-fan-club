@@ -449,3 +449,23 @@ for (const pokeListItem of pokeListItems) {
 
 // initialize App
 fetchPokeList('https://pokeapi.co/api/v2/pokemon?offset=0&limit=20');
+
+
+// swiper js for movies section
+
+var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+    },
+});

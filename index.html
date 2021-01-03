@@ -13,16 +13,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
         type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
     <script type="text/javascript">
         (function () {
-            emailjs.init("user_hTHC4hVb5ggfXpBXMvVGM");
+            emailjs.init("user_rbhjtEjC1b8MwEzqoN6wC");
         })();
     </script>
 
@@ -569,43 +570,28 @@
         </div>
 
         <div id="movies-animes">
-
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
 
         <div id="fan-events">
-            <div class="text-center">
-                <h1>Fan Events</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis ex at sem rutrum
-                    tristique. Cras in nisi ornare,o. </h2>
-
-                <div>
-                    <div class="container text-center">
-                        <form action="action_page.php">
-
-                            <label for="fname" class="text-center">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                            <label for="country">Country</label>
-                            <select id="country" name="country">
-                                <option value="australia">Australia</option>
-                                <option value="canada">Canada</option>
-                                <option value="usa">USA</option>
-                            </select>
-
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.."
-                                style="height:200px"></textarea>
-
-                            <input type="submit" value="Submit">
-
-                        </form>
-                    </div>
-                </div>
-
-            </div>
+            <input type="text" id="toName" placeholder="Enter to name">
+            <input type="text" id="fromName" placeholder="Enter from name">
+            <input type="text" id="msg" placeholder="Enter your message">
+            <button onclick="sendMail()">Send Email</button>
 
         </div>
     </section>
@@ -617,9 +603,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
-
     <script src="javascript/my-script.js"></script>
     <script src="javascript/sendEmail.js"></script>
+
 </body>
 
 </html>
