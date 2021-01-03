@@ -644,12 +644,13 @@ padding: 0; */
 #movies-animes {
     min-height: 100vh;
     width: 100%;
-    background-color: #000;
+    background-color: #111;
     font-size: 14px;
-    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -662,14 +663,12 @@ padding: 0; */
 .swiper-slide {
     background-position: center;
     background-size: cover;
+    background-color: #111;
     width: 400px;
     height: 600px;
     }
 
-.movie-poster {
-    height: auto;
-    width: 500px;
-}
+
 
 @media only screen and (max-width: 600px) {
   .swiper-slide {
