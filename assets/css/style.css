@@ -716,6 +716,14 @@ header {
     opacity: 1;
 }
 
+.movie-slide .movie-review {
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    width: 600px;
+
+}
+
 
 /* movie images */
 
