@@ -712,23 +712,26 @@ header {
     transition: opacity 0.4s ease-in-out;
 }
 
+.movie-slide.current {
+    opacity: 1;
+}
 
 
 /* movie images */
 
-.slide:first-child {
+.movie-slide:first-child {
     background: url("../images/movies/detective-pikachu.jpg") no-repeat center center/cover;
 }
 
-.slide:nth-child(2) {
+.movie-slide:nth-child(2) {
     background: url("../images/movies/i-choose-you.jpg") no-repeat center top/cover;
 }
 
-.slide:nth-child(3) {
+.movie-slide:nth-child(3) {
     background: url("../images/movies/kyurem.jpg") no-repeat center top/cover;
 }
 
-.slide:nth-child(4) {
+.movie-slide:nth-child(4) {
     background: url("../images/movies/mewtwo-strikes-back-evolution.jpg") no-repeat center top/cover;
 }
 
