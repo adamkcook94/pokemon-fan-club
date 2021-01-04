@@ -722,7 +722,15 @@ header {
 }
 
 .movie-slide:nth-child(2) {
-    background: url("../images/movies/mewtwo-strikes-back.png") no-repeat center top/cover;
+    background: url("../images/movies/i-choose-you.jpg") no-repeat center top/cover;
+}
+
+.movie-slide:nth-child(3) {
+    background: url("../images/movies/kyurem.jpg") no-repeat center top/cover;
+}
+
+.movie-slide:nth-child(4) {
+    background: url("../images/movies/mewtwo-strikes-back-evolution.jpg") no-repeat center top/cover;
 }
 
 /* Fan Events */
