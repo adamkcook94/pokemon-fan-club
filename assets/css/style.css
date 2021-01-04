@@ -679,12 +679,52 @@ header {
 
 /* Movies */
 
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
 #movies {
     min-height:100vh;
     background-size: cover;
     background-position: center;
     background-color: #2a75bb;
+    line-height: 1.6;
 }
+
+.movie-slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.movie-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.movie-slide.current {
+    opacity: 1;
+}
+
+/* movie images */
+
+.movie-slide:first-child {
+    background: url("../images/movies/detective-pikachu.jpg") no-repeat center center/cover;
+}
+
+.movie-slide:nth-child(2) {
+    background: url("../images/movies/mewtwo-strikes-back.png") no-repeat center top/cover;
+}
+
 /* Fan Events */
 
 #fan-events {
