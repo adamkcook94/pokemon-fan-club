@@ -745,6 +745,19 @@ header {
     left: 30px;
 }
 
+.arrow-buttons button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: grey;
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.arrow-buttons button:hover {
+    background-color: white;
+}
 
 
 
