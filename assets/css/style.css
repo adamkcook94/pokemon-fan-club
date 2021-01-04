@@ -636,9 +636,7 @@ header {
     to {opacity: 1}
 }
 
-/* Movies / Animes */
-
-
+/* Anime */
 
 #anime {
     min-height: 100vh;
@@ -677,6 +675,15 @@ header {
     width: 300px;
     height: 500px;
   }
+}
+
+/* Movies */
+
+#movies {
+    min-height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #2a75bb;
 }
 /* Fan Events */
 
