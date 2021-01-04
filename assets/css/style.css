@@ -719,9 +719,18 @@ header {
 .movie-slide .movie-review {
     position: absolute;
     bottom: 70px;
-    left: 0px;
+    left: -600px;
+    opacity: 0;
     width: 600px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: blue;
+    padding: 50px;
+}
 
+.movie-slide.current .movie-review {
+    opacity: 1;
+    transform: translateX(600px);
+    transition: all 1s ease-in-out 0.3s;
 }
 
 
