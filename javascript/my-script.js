@@ -451,7 +451,7 @@ for (const pokeListItem of pokeListItems) {
 fetchPokeList('https://pokeapi.co/api/v2/pokemon?offset=0&limit=20');
 
 
-// swiper js for movies section
+// swiper js for anime section
 
 var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',
