@@ -78,7 +78,7 @@ header {
 /* Pokedex */
 
 #pokedex {
-    min-height: 100vh;
+    height: 100vh;
     background-image: url("../images/pokedex/mew.jpg");
     background-size: cover;
     background-position: center;
@@ -87,9 +87,11 @@ header {
 .pokedex {
   align-items: flex-end;
   display: flex;
-  height: 500px;
-  margin: 50px;
+  height: 550px;
   width: 800px;
+  position: relative;
+  margin-left: 280px;
+  /* margin-top: 200px; */
 }
 
 .left-container,
@@ -687,13 +689,13 @@ header {
 
 
 
-#movies {
+ #movies {
     min-height:100vh;
     background-position: center;
     background: #333;
     color: #fff;
     line-height: 1.6;
-}
+}   
 
 .movie-slider {
     position: relative;
