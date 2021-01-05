@@ -475,8 +475,8 @@ const next = document.querySelector('#next');
 const previous = document.querySelector('#previous');
 
 // movie slide intervals
-const auto = false;
-const intervalTime = 5000;
+const auto = true;
+const intervalTime = 10000;
 let slideInterval;
 
 const nextSlide = () => {
@@ -522,3 +522,9 @@ next.addEventListener('click', e => {
 previous.addEventListener('click', e => {
     previousSlide();
 });
+
+// auto slider
+
+if (auto) {
+    slideInterval = setInterval(nextSlide, intervalTime);
+}
