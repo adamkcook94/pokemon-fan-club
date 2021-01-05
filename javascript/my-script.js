@@ -480,26 +480,20 @@ const intervalTime = 10000;
 let slideInterval;
 
 const nextSlide = () => {
-
     // retrieves current class 
     const current = document.querySelector('.current');
-
     // removes current class
     current.classList.remove('current');
-
     // checks if movie-slide class has a sibling next 
-    if (current.nextElementSibling) {
-
+    if (current.nextElementSibling && !current.nextElementSibling.classList.contains('arrow-buttons')) {
         // adds current class to next movie slide
         current.nextElementSibling.classList.add('current');
-
     } else {
-
         // add current class to first movie slide
         movieSlide[0].classList.add('current');
     }
     // remove current class again when it goes back to first movie slide
-    setTimeout(() => current.classList.remove('current'));
+    // setTimeout(() => current.classList.remove('current'));
 };
 
 const previousSlide = () => {
