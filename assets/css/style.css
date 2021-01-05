@@ -759,6 +759,17 @@ header {
     background-color: white;
 }
 
+@media (max-width: 600px) {
+    .movie-review {
+        bottom: -300px;
+        right: 0;
+        width: 100%;
+    }
+
+    .movie-review.current {
+        transform: translateY(-300px);
+    }
+}
 
 
 /* movie images */
