@@ -84,14 +84,18 @@ header {
     background-position: center;
 }
 
+.pokedex-position {
+    padding-top: 200px;
+    padding-left: 80px;
+}
+
 .pokedex {
   align-items: flex-end;
   display: flex;
   height: 550px;
   width: 800px;
   position: relative;
-  margin-left: 280px;
-  /* margin-top: 200px; */
+
 }
 
 .left-container,
