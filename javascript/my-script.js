@@ -513,3 +513,12 @@ const previousSlide = () => {
     // setTimeout(() => current.classList.remove('current'));
 };
 
+// button events
+
+next.addEventListener('click', e => {
+    nextSlide();
+});
+
+previous.addEventListener('click', e => {
+    previousSlide();
+});
