@@ -3,6 +3,8 @@ function sendMail(params) {
         email_address: document.getElementById("emailAddress").value,
         your_name: document.getElementById("yourName").value,
         postcode: document.getElementById("postcode").value,
+        house_number: document.getElementById("houseNumber").value,
+        street_name: document.getElementById("streetName").value,
     };
 
     emailjs.send('service_sgo6zyq', 'template_uyv7wkn', tempParams)
@@ -10,6 +12,8 @@ function sendMail(params) {
             console.log("success", res.status);
         })
 };
+
+
 
 
 
