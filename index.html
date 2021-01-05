@@ -775,13 +775,34 @@
 
 
         <div id="fan-events">
-            <input type="text" id="yourName" placeholder="Your Name">
-            <input type="text" id="emailAddress" placeholder="Email">
-            <input type="text" id="houseNumber" placeholder="House Number">
-            <input type="text" id="streetName" placeholder="Street">
-            <input type="text" id="postcode" placeholder="Postcode">
-            <button onclick="sendMail()">Subscribe</button>
-
+            <div class="newsletter">
+                <h1 class="text-center email-msg">Email Newsletter</h1>
+                <p class="text-center email-msg">Enter your details below and subscirbe to our weekly newsletter!</p>
+                <div class="text-center">
+                    <form class="text-center">
+                        <ul><input class="sign-up-form" type="text" id="yourName" placeholder="Your Name"></ul>
+                        <ul><input class="sign-up-form" type="text" id="emailAddress" placeholder="Email"></ul>
+                        <ul><input class="sign-up-form" type="text" id="houseNumber" placeholder="House Number"></ul>
+                        <ul><input class="sign-up-form" type="text" id="streetName" placeholder="Street"></ul>
+                        <ul><input class="sign-up-form" type="text" id="postcode" placeholder="Postcode"></ul>
+                        <ul><button class="subscribe-button" onclick="sendMail()">Subscribe</button></ul>
+                    </form>
+                </div>
+                <!-- <form class="text-center">
+                    <input type="text" id="yourName" placeholder="Your Name">
+                    <input type="text" id="emailAddress" placeholder="Email">
+                    <input type="text" id="houseNumber" placeholder="House Number">
+                    <input type="text" id="streetName" placeholder="Street">
+                    <input type="text" id="postcode" placeholder="Postcode">
+                    <button onclick="sendMail()">Subscribe</button>
+                </form> -->
+                <!-- <input type="text" id="yourName" placeholder="Your Name">
+                <input type="text" id="emailAddress" placeholder="Email">
+                <input type="text" id="houseNumber" placeholder="House Number">
+                <input type="text" id="streetName" placeholder="Street">
+                <input type="text" id="postcode" placeholder="Postcode">
+                <button onclick="sendMail()">Subscribe</button> -->
+            </div>
         </div>
 
     </section>
