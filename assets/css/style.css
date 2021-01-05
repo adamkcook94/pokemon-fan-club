@@ -1,6 +1,7 @@
 /* Body */
 body {
     font-family: 'Nerko One', cursive;
+    overflow: visible;
 }
 
 /* Header */
