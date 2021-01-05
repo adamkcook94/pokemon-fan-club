@@ -470,3 +470,46 @@ var swiper = new Swiper('.swiper-container', {
 
 // movies
 
+const movieSlide = document.querySelectorAll('.movie-slide');
+const next = document.querySelector('#next');
+const previous = document.querySelector('#previous');
+
+// movie slide intervals
+const auto = false;
+const intervalTime = 5000;
+let slideInterval;
+
+const nextSlide = () => {
+    // retrieves current class 
+    const current = document.querySelector('.current');
+    // removes current class
+    current.classList.remove('current');
+    // see if theres a next slide 
+    if (current.nextElementSibling) {
+        // adds current class to next movie slide
+        current.nextElementSibling.classList.add('current');
+    } else {
+        // add current class to first movie slide
+        movieSlide[0].classList.add('current');
+    }
+    // remove current class again when it goes back to first movie slide
+    setTimeout(() => current.classList.remove('current'));
+};
+
+const previousSlide = () => {
+    // retrieves current class 
+    const current = document.querySelector('.current');
+    // removes current class
+    current.classList.remove('current');
+    // see if theres a previous slide 
+    if (current.previousElementSibling) {
+        // adds current class to previous movie slide
+        current.previousElementSibling.classList.add('current');
+    } else {
+        // add current class to last movie slide
+        movieSlide[movieSlide.length - 1].classList.add('current');
+    }
+    // // remove current class again when it goes back to first movie slide
+    // setTimeout(() => current.classList.remove('current'));
+};
+
