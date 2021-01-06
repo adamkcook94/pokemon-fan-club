@@ -50,3 +50,5 @@ This project helps the consumer achieve this by:
 
 The following images are wireframes from each page of the website:
 
+
+<img src="assets/images/PFC-Home.epgz" alt="index-wireframe" title="Index" width="700" height="300">
