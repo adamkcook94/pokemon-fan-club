@@ -718,7 +718,7 @@ header {
 
 .movie-slider {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     height: 100vh;
     width: 100vw;
 }
