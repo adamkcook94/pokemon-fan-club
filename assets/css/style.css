@@ -14,8 +14,6 @@ header {
     padding-top: 50px;
 }
 
-
-
 .pokemon-home {
     width: 50%;
     height: auto;
@@ -26,7 +24,6 @@ header {
     height: auto;
     }
     
-
 .pokemon-home-div {
     width: 100%;
     height: 40vh;
@@ -49,8 +46,6 @@ header {
         margin-right: 0%;
     }
 }
-
-
 
 .welcome-msg {
     display: flex;
@@ -126,7 +121,6 @@ header {
   width: 50%;
 }
 
-
 .right-container {
   border-left: none;
 }
@@ -186,8 +180,6 @@ header {
   height: 75%;
 }
 
-
-
 .main-section__black {
   background: black;
   height: calc(100% - 50px);
@@ -229,7 +221,6 @@ header {
   height: 6rem;
   width: 6rem;
 }
-
 
 .screen__description {
   display: flex;
@@ -349,8 +340,7 @@ header {
 
 .buttons__button:last-child {
    margin-top: -0.3125rem;
- }
-
+}
 
 .left-container__right {
   border-left: 0.1875rem solid black;
@@ -465,7 +455,6 @@ header {
   box-shadow: inset 0 0 0.125rem 0.125rem rgba(0,0,0,.3);
 }
 
-
 .hide {
   display: none;
 }
@@ -542,7 +531,6 @@ header {
   background: #F9AEFF;
 }
 
-
 /* Games */
 
 #games {
@@ -577,7 +565,6 @@ header {
         margin-top: 68px;
     }
 }
-
 
 .zoom {
     transition: transform .2s;
@@ -651,8 +638,6 @@ header {
     cursor: pointer;
 }
 
-/* * {box-sizing:border-box} */
-
 .slideshow-container {
     max-width: 500px;
     position: relative;
@@ -663,7 +648,6 @@ header {
 .mySlides {
     display: none;
 }
-
 
 .mySlides1 {
     display: none;
@@ -698,15 +682,14 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
 
 .swiper-container {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    }
+}
 
 .swiper-slide {
     background-position: center;
@@ -714,11 +697,7 @@ header {
     background-color: #111;
     width: 400px;
     height: 600px;
-    
-    /* color: white;
-    font-size: 50px; */
-    }
-
+}
 
 @media only screen and (max-width: 600px) {
   .swiper-slide {
@@ -728,14 +707,6 @@ header {
 }
 
 /* Movies */
-
-/* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
-
-
 
  #movies {
     min-height:100vh;
@@ -821,7 +792,6 @@ header {
     }
 }
 
-
 /* movie images */
 
 .movie-slide:first-child {
@@ -842,7 +812,7 @@ header {
 
 /* Fan Events */
 
-#fan-events {
+#newsletter {
     min-height:100vh;
     background-image: url("../images/fan-events/surfing-pikachu.jpg");
     background-size: cover;
@@ -886,4 +856,3 @@ header {
 .subscribe-button:hover{
     border-color: rgba(255, 255, 255, 1);
 }
-

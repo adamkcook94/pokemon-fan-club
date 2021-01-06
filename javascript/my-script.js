@@ -510,7 +510,7 @@ const previousSlide = () => {
         movieSlide[movieSlide.length - 1].classList.add('current');
     }
     // // remove current class again when it goes back to first movie slide
-    setTimeout(() => current.classList.remove('current'));
+    // setTimeout(() => current.classList.remove('current'));
 };
 
 // button events
