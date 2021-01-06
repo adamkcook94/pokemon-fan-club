@@ -98,3 +98,28 @@ The movie section of the website displays a backdrop of a Pokemon movie as well 
 
 The image and text content automatically slide after 10 seconds giving users ample time to read the relevant information of the movie. There are also next and previous buttons for users to sift through the content to find a movie that appeals to them.
 
+### newsletters
+
+The newsletter section allows users to subscribe to a annual Pokemon magazine and a weekly newsletter which aims to detail when and where Pokemon events are occuring. This page has used the Emailjs functionality which allows for an email to be sent to the Pokemon Fan Club upon entering their details. Users will also receive an auto-reply from the Pokemon Fan Club. 
+
+If users enter an invalid email address they will have an alert crop up on their screen and will be urged to enter a valid email.
+
+### Features to Implement in the future
+
+* Inclusion of the Pokedex into smaller screen sizes.
+* Entering modals into the anime section where users can click on the anime image and receive more information.
+
+### Technologies Used
+
+* HTML, CSS & Javascript programming languages
+* GitHUB – Used as an IDE by the developer.
+* Google Fonts – Used to style the website fonts.
+* Hover.css – Used for an underlining feature in the navigation bar for whenever a user hovers over a page link.
+* Popper.js – Used to reference JavaScript.
+* FontAwesome - Used icons for the arrows in the movie section and the stars for all the reviews.
+* Swiper JS - Used for the anime section to slide between images.
+* All images imported were downloaded from Google Images and then stored and linked by the developer.
+* BootstrapCDN - Bootstrap 5 was used for the project’s structure and responsiveness.
+
+
+  
