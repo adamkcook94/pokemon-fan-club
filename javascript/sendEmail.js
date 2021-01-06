@@ -42,7 +42,7 @@ function sendMail(params) {
                 console.log("success", res.status);
             });
     } else {
-        alert("Please enter valid email address");
+        alert("Your e-mail address is invalid");
         return false;
     }
 }
