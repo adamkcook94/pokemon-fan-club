@@ -74,3 +74,27 @@ order to add to the environment of Pokemon where a common theme is to throw a po
 every Pokemon of the original 151 facing the user, which adds to a welcoming theme, where the idea is to welcome users
 to the fan club. 
 
+### Pokedex
+
+The pokedex feature allows users to sift through all of the Pokemon in the series using the PokeAPI. Users can select the name of a Pokemon and see the front and back image, the Pokemon's weight and height and the Pokemon's type. There were 
+issues in terms of the responsivity of the Pokedex as the image of the Pokedex didn't respond well to smaller screen sizes.
+
+Due to time constraints this issue was not resolved however in future changing the dimensions to percentages instead of rems 
+could possibly work, or moving the right container to below the left container may also have been a solution.
+
+### Games
+
+The games section of the website takes users through a number of games of the Pokemon series. There is a hover feature on all of the images of the games. Game images are structured in a 3x3 rows and columns and are well spaced out to make room for the hover effect. 
+
+When users click on an image they are met with a modal containing a slideshow of the relevant in-game screenshots as well as a Pokemon Fan Club star rating and review. 
+
+### Anime
+
+The anime section of the website contains a cdn from Swiper JS which allows users to swipe through a collection of animes that Pokemon have released. Each anime has a title, a star rating and the amount of episodes in the series. For users that are trying to watch the Pokemon anime this acts as a helpful tool as the information is displayed in a structured and chronological order.
+
+### Movies
+
+The movie section of the website displays a backdrop of a Pokemon movie as well as text content containing the movie name and a Pokemon Fan Club review. 
+
+The image and text content automatically slide after 10 seconds giving users ample time to read the relevant information of the movie. There are also next and previous buttons for users to sift through the content to find a movie that appeals to them.
+
