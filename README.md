@@ -51,3 +51,26 @@ This project helps the consumer achieve this by:
 The following images are wireframes from each page of the website:
 
 [HERE](https://www.figma.com/file/sB6i7Fs9u54Ef9U8r5x1lF/Pokemon-Fan-Club)
+
+
+### Client Stories
+
+* As a first time visitor I want a clear idea of what services the website is offering me.
+* As a fan of Pokemon I want to be able to discover new pokemon I may never have heard of.
+* As a new fan of Pokemon I want to discover new aspects of Pokemon I can involve myself in, such as movies or
+animes I haven't yet come across.
+* As a fan of Pokemon that wants to find like-minded people that share my passion for Pokemon I want to 
+find out where local events are going on.
+
+### Features
+
+### Home
+
+The home page contains an interactive navigation bar where users can hover over each link and have a hover effect, where
+the text jumps and turns from blue to white. 
+
+The home page also displays the very eye-catching Pokemon logo which, when the page loads will slide from the right in 
+order to add to the environment of Pokemon where a common theme is to throw a pokeball. The background image is also 
+every Pokemon of the original 151 facing the user, which adds to a welcoming theme, where the idea is to welcome users
+to the fan club. 
+
