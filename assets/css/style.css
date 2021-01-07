@@ -7,10 +7,10 @@ body {
 /* Header */
 
 header {
-    min-height: 100vh;
     background-image: url("../images/homepage/pokemon-bg.jpg");
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
     padding-top: 50px;
 }
 
@@ -41,9 +41,6 @@ header {
 @keyframes slide-from-right {
     from {
         margin-right: -200%;
-    }
-    to {
-        margin-right: 0%;
     }
 }
 
