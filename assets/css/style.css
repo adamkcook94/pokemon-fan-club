@@ -857,7 +857,7 @@ header {
 
 .subscribe-button {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 100px 10px;
     margin: 0 0.1em 0.1em;
     border: solid rgba(255, 255, 255, 0);
     border-radius: 2em;

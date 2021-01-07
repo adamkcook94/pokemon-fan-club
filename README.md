@@ -120,6 +120,13 @@ If users enter an invalid email address they will have an alert crop up on their
 * Swiper JS - Used for the anime section to slide between images.
 * All images imported were downloaded from Google Images and then stored and linked by the developer.
 * BootstrapCDN - Bootstrap 5 was used for the project’s structure and responsiveness.
+* JSHint
+
+## Testing
+
+* [W3C HTML Code Validator]()
+
+* [W3C CSS Validator]()
 
 
   
