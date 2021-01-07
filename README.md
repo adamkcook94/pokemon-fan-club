@@ -124,9 +124,11 @@ If users enter an invalid email address they will have an alert crop up on their
 
 ## Testing
 
-* [W3C HTML Code Validator]()
+* [W3C HTML Code Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamkcook94.github.io%2Fpokemon-fan-club%2F)
 
-* [W3C CSS Validator](http://jigsaw.w3.org/css-validator/validator$link)
+* W3C CSS Validator:
+
+<img src="assets/images/css-validator.png" alt="CSS Validator" title="CSS Validator" width="1359" height="793">
 
 
   
