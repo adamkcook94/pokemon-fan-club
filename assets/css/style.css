@@ -766,13 +766,13 @@ header {
 
 .movie-slide .movie-review {
     position: absolute;
-    bottom: 70px;
+    bottom: 30px;
     left: -600px;
     opacity: 0;
     width: 600px;
-    background-color: rgba(255, 255, 255, 0.7);
-    color: blue;
-    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    padding: 10px 10px;
 }
 
 .movie-slide.current .movie-review {
@@ -781,15 +781,27 @@ header {
     transition: all 1s ease-in-out 0.3s;
 }
 
+@media (max-width: 600px) {
+    .movie-slide .movie-review {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .movie-slide .movie-review {
+        width: 100%;
+    }
+}
+
 .arrow-buttons button#next {
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 30px;
 }
 
 .arrow-buttons button#previous {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 30px;
 }
 
@@ -805,18 +817,6 @@ header {
 
 .arrow-buttons button:hover {
     background-color: white;
-}
-
-@media (max-width: 600px) {
-    .movie-review {
-        bottom: -300px;
-        right: 0;
-        width: 100%;
-    }
-
-    .movie-review.current {
-        transform: translateY(-300px);
-    }
 }
 
 /* movie images */
