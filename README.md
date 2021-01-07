@@ -126,7 +126,7 @@ If users enter an invalid email address they will have an alert crop up on their
 
 * [W3C HTML Code Validator]()
 
-* [W3C CSS Validator]()
+* [W3C CSS Validator](http://jigsaw.w3.org/css-validator/validator$link)
 
 
   
