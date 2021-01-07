@@ -604,7 +604,7 @@ header {
 }
 
 .modal-content {
-    background-color: rgba(220, 218, 232,);
+    background-color: rgba(220, 218, 232, 0.9);
     margin: 40px auto; 
     border: 1px solid #888;
     width: 35%; 
@@ -665,6 +665,10 @@ header {
 
 .mySlides1 {
     display: none;
+}
+
+.game-review {
+    padding: 10px 10px;
 }
 
 .fade {
