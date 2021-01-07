@@ -295,7 +295,61 @@ vi. Changing screen size to mobile and tablet devices to ensure arrows do not ov
 
 i. Clicking each text box to ensure each input element is working properly and you are able to enter relevant information.
 
-ii. 
+ii. Re-sizing the screen to mobile and tablet devices to ensure text boxes scale fluidly.
+
+2. Email JS functionality
+
+i. Entering the correct information into the sign up form with a valid email and then clicking the 'subscribe' button. Then checking my email to ensure the EmailJS functionality is working as I have received an email from the Pokemon Fan Club.
+
+ii. Entering an incorrect email address to ensure that a 'invalid email address' notification comes up.
+
+3. Subscribe button
+
+i. Ensuring that when you click the subscribe button a function carries out. 
+
+ii. Hovering over the button to ensure a hover effect occurs.
+
+## Further Testing:
+
+Checked website on different devices to test functionality and no issues were found. Due to a significant knowledge gap Jasmine testing was not incorporated into this project.
+
+## Deployment
+
+This project was developed using GitPod, committed to git and pushed to GitHub.
+
+To deploy this page, the following steps were taken:
+
+1. Log into Github.
+2. On GitHub, navigate to the repository “adamkcook94/pokemon-fan-club”.
+3. Underneath the repository name, select “Settings”.
+4. Scroll down to “GitHub Pages”.
+5. Click on the drop-down menu and select “master”.
+6. Click “save”.
+7. The page will now refresh and a link to the site will be available under the “GitHub Pages” section.
+
+## How to run this project locally
+
+To clone this project from GitHub:
+
+1. Click this link to the main page of the repository: https://github.com/adamkcook94/pokemon-fan-club
+2. Above the list of files click “Code”.
+3. Click “Open with GitHub Desktop”.
+4. Follow the prompts in GitHub Desktop to complete the clone.
+
+## Credits
+
+- PokeAPI
+- Pokemon
+
+## Media
+
+- The images used throughout the project were taken from Google Images, by way of the Pokemon series.
+
+## Acknowledgements
+
+- My inspiration for this project was found in my love for Pokemon.
+- I would like to thank my tutor Narender for helping me throughout various aspects in this project.
+
 
 
 
