@@ -121,6 +121,7 @@ If users enter an invalid email address they will have an alert crop up on their
 * All images imported were downloaded from Google Images and then stored and linked by the developer.
 * BootstrapCDN - Bootstrap 5 was used for the project’s structure and responsiveness.
 * JSHint
+* Figma - Used as a wireframing tool as my trial with Balsamiq.
 
 ## Testing
 
@@ -129,6 +130,25 @@ If users enter an invalid email address they will have an alert crop up on their
 * W3C CSS Validator:
 
 <img src="assets/images/css-validator.png" alt="CSS Validator" title="CSS Validator" width="1359" height="793">
+
+* JSHint:
+
+When using JSHint, there were no errors but only warnings in terms of my usage of ES6 and a few missing semi-colons which have been fixed.
+
+### Client Stories Testing
+
+
+The common pathway for users throughout the website would be:
+
+Home > Pokedex > Games > Anime > Movies > Newsletter
+
+Each page contains relevant information that users will find helpful in their goal. Each page is structured in a simplistic yet effective way so as to not overwhelm users. 
+
+As the website is structured in a one-page format users are unlikely to feel lost when delving into the website.
+
+
+
+
 
 
   
