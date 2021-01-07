@@ -108,6 +108,7 @@ If users enter an invalid email address they will have an alert crop up on their
 
 * Inclusion of the Pokedex into smaller screen sizes.
 * Entering modals into the anime section where users can click on the anime image and receive more information.
+* Fixing the issue in the modal section where some images were too big for certain screen sizes which would result in text moving up and down as the images changed.
 
 ### Technologies Used
 
@@ -145,6 +146,161 @@ Home > Pokedex > Games > Anime > Movies > Newsletter
 Each page contains relevant information that users will find helpful in their goal. Each page is structured in a simplistic yet effective way so as to not overwhelm users. 
 
 As the website is structured in a one-page format users are unlikely to feel lost when delving into the website.
+
+### Testing Client Stories
+
+1. As a first time visitor I want a clear idea of what services the website is offering me.
+
+i. The navigation bar is easy to use and clearly communicates what the website offers.
+
+ii. As the website in a one-page format there are short trips to each page section. Users can quickly navigate from one page to the next.
+
+2. As a fan of Pokemon I want to be able to discover new pokemon I may never have heard of.
+
+i. The Pokedex section lists every single Pokemon in the Pokemon world.
+
+ii. The Pokedex is clear and easy to use for all age groups with next and previous buttons being utilised to sift through the thousands of Pokemon on offer.
+
+3. As a new fan of Pokemon I want to discover new aspects of Pokemon I can involve myself in, such as movies or
+animes I haven't yet come across.
+
+i. The Anime section houses every single anime in the Pokemon Universe for users to discover.
+
+ii. The Anime section contains a personal, Pokemon Fan Club rating which comes from a trustable source.
+
+iii. The movies section contains Pokemon movies for the user to discover.
+
+iv. The movies section has a fluid autoplay enabling users enough time to read through each movies' plot.
+
+4. As a fan of Pokemon that wants to find like-minded people that share my passion for Pokemon I want to 
+find out where local events are going on.
+
+i. The newsletter section allows users to enter their details into a sign up form where they will from then on receive weekly newsletters which contain information on fan events, as well as an annual magazine delivered to their doorstep.
+
+### Manual Testing of all elements and functionality on every page.
+
+#### Home
+
+1. Navigation Bar:
+
+i. Access the home page from a desktop.
+
+ii. Right click and select “Inspect” to change screen size to that of a mobile device or tablet to confirm that the navigation bar is responsive.
+
+iii. Hover over the menu items to make sure that text changes from blue to white and has a jumping effect.
+
+iv. Click on each navigation menu item to confirm that that it links to the desired page and that it incorporates a scroll-down effect.
+
+v. Change screen size to mobile and tablet devices and make sure the navigation bar links are still well spaced and easy to read.
+
+vi. Change screen size to mobile and tablet devices and make sure the navigation bar links still function with a scroll-down effect.
+
+2. Website Background Image:
+
+i. Access the home page from a desktop.
+
+ii. Change screen size to mobile and tablet devices to ensure the image scales depending on screen size.
+
+3. Pokemon Logo 
+
+i. Access the home page from a desktop.
+
+ii. Change screen size to mobile and tablet devices to ensure the Pokemon Logo scales fluidly.
+
+4. Welcome Message 
+
+i. Access the home page from a desktop.
+
+ii. Change screen size to mobile and tablet devices to ensure that the welcome message as well as the smaller images placed side by side scales fluidly. 
+
+### Pokedex 
+
+1. Background Image and title text
+
+i. Ensure background image and title text re-format properly into smaller screen devices
+
+2. Pokedex tool
+
+i. Click the different Pokemon from the list to make sure the Pokedex shows a front and back image of a Pokemon, it's elemental type and it's height and weight.
+
+ii. Click the "prev" and "next" buttons to ensure that the list of Pokemon changes to the next page.
+
+iii. Change screen size to mobile and tablet devices. I was unable to properly make the pokedex responsive due to time constraints however as referenced in the 'future implementations' section this is an area to be improved upon.
+
+iv. Ensuring that a message comes up to users informing them that the Pokedex is not suitable at screen sizes under 820px.
+
+### Games 
+
+1. Background Image and title text
+
+i. Ensure background image and title text re-format properly into smaller screen devices
+
+2. Game Images 
+
+i. Ensure that they maintain a 3x3 structure at all screen sizes.
+
+ii. Ensure that they maintain their aspect ratios at all screen sizes.
+
+iii. Hovering over each image to ensure that each image retains its' hover effect.
+
+iv. Clicking each image to ensure a modal pop up arrives. 
+
+v. Changing screen sizes to mobile and tablet devices to ensure clicking on an image brings up a modal.
+
+3. Modals 
+
+i. Clicking on each image to make sure a modal comes up.
+
+ii. Clicking each game image to make sure each game's modal has a functioning slideshow.
+
+iii. Clicking each game image to ensure that users have the option of either clicking on an x button at the top of the modal or clicking outside of the modal to exit the modal.
+
+iv. Changing screen size to mobile and tablet devices to ensure each modal retains a fluid structure as well as displaying the functionality mentioned previously.
+
+### Anime
+
+1. Swiper JS 
+
+i. Swiping through each image one by one to ensure they all swipe through seamlessly and that the star rating, anime title and episode text is structured well.
+
+ii. Converting screen size to mobile and tablet devices to ensure the swiper still works and the structure remains.
+
+### Movies 
+
+1. Movie Images & Textual Information 
+
+i. Waiting throughout the autoplay feature to ensure that the text and text box maintains a fluid structure.
+
+ii. Waiting throughout the autoplay feature to ensure that images slide through seamlessly.
+
+iii. Changing screen size to mobile and tablet devices to ensure the text and text box maintains a good structure.
+
+2. Arrow buttons 
+
+i. Hovering over both the right and left arrows to ensure they change color when hovering over them.
+
+ii. Clicking each arrow to ensure they both go to the next and previous slide.
+
+iii. Clicking the next arrow at the last slide to ensure it loops back to the first slide.
+
+iv. Clicking the previous arrow at the first slide to ensure it loops back to the last slide.
+
+v. Waiting 8 seconds to click a next arrow to make sure the autoplay feature resets and slides again after a further 10 seconds, as opposed to always sliding after 10 seconds.
+
+vi. Changing screen size to mobile and tablet devices to ensure arrows do not overlay the text and text box.
+
+### Newsletter 
+
+1. Sign Up Text Boxes
+
+i. Clicking each text box to ensure each input element is working properly and you are able to enter relevant information.
+
+ii. 
+
+
+
+
+
 
 
 
