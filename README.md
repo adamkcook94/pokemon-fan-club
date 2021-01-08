@@ -8,7 +8,7 @@ Pokemon fan events in their local area.
 The main goal of the website is to offer an information resource for Pokemon fans, in order to receive 
 as many visitors to the website as possible. Access to the website can be found 
 
-[HERE] <<<<<<<<<<<<<<<<------------------------------------------------------->>>>>>>>>>>>>>>>
+[HERE] (https://adamkcook94.github.io/pokemon-fan-club/)
 
 The goals of the website are as follows:
 
