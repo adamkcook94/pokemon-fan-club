@@ -50,7 +50,7 @@ This project helps the consumer achieve this by:
 
 The following images are wireframes from each page of the website:
 
-[HERE](https://www.figma.com/file/sB6i7Fs9u54Ef9U8r5x1lF/Pokemon-Fan-Club)
+[HERE](https://www.figma.com/file/sB6i7Fs9u54Ef9U8r5x1lF/Pokemon-Fan-Club?node-id=8%3A98)
 
 
 ### Client Stories
